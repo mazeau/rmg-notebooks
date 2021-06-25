@@ -1,0 +1,82 @@
+!SURFACE MECHANISM OF POX of CH4 on PT wire gauze
+!***********************************************************************
+!****                                                                  *
+!****     CH4-O2 SURFACE MECHANISM  ON PT                              *
+!****                                                                  *
+!****     Version 1.0   Spring 2005                                    *
+!****                                                                  *
+!****     Raul Quiceno, Olaf Deutschmann, IWR, Heidelberg University,  *
+!****     Germany            *                                         *
+!****     Contact: mail@detchem.com (O. Deutschmann)                   *
+!****                                                                  *
+!****     Reference:                                                   *
+!****     R. Quiceno, J. Perez-Ramyrez, J. Warnatz, O. Deutschmann.    *
+!****     Appl. Catal. A: General (2006)                               *
+!****     www.detchem.com/mechanisms                                   *
+!****                                                                  *
+!****                                                                  *
+!****     Kinetic data format: DETCHEM                                 *
+!****      k = A * T**b * exp (-Ea/RT)         A          b       Ea   *
+!****                                       (cm,mol,s)    -     kJ/mol *
+!****                                                                  *
+!****      STICK: A in next reaction is initial sticking coefficient   *
+!****                                                                  *
+!****      $..  : additional coverage dependence of Ea (3rd column)    *
+!****               or changed reaction order (2nd column)             *
+!****                                                                  *
+!****      see manuals on www.detchem.com for details                  *
+!****                                                                  *
+!****      The kinetic data of the backward reactions of               *
+!****      reactions in Section 3 are calculated                       *
+!****      from thermodynamics (k_b = k_f /K)                          *
+!****                                                                  *
+!****     Surface site density: 2.72E-9 mol/cm**2                      *
+!****                                                                  *
+!****     CHEMKIN format                                               *
+!****                                                                  *
+!***********************************************************************
+REACTIONS  KJ/MOLE  MOLES
+H2+X+X=>HX+HX             4.600E-02  0.000      0.000
+    STICK
+X+X+O2=>OX+OX             1.891E+21  -0.500     0.000
+CH4+X+X=>HX+CH3X          9.000E-04  0.000      72.000
+    STICK
+X+OX+CH4=>OHX+CH3X          5.000E+18  0.700      42.000
+CH4+OHX+X=>H2OX+CH3X        1.000E+00  0.000      10.000
+    STICK
+H2O+X=>H2OX                         7.500E-01  0.000      0.000
+    STICK
+CO2+X=>CO2X                         5.000E-03  0.000      0.000
+    STICK
+CO+X=>COX                           8.400E-01  0.000      0.000
+    STICK
+HX+HX=>X+X+H2             3.700E+21  0.000      67.400
+OX+OX=>X+X+O2             3.700E+21  0.000      235.500
+H2OX=>X+H2O                         4.500E+12  0.000      41.800
+COX=>X+CO                           1.000E+15  0.000      146.000
+CO2X=>X+CO2                         1.000E+13  0.000      27.070
+OX+CX=>X+COX                  3.700E+19  0.000      0.000
+X+COX=>OX+CX                  3.700E+19  0.000      236.500
+OX+COX=>X+CO2X                3.700E+21  0.000      117.600
+X+CO2X=>OX+COX                3.700E+19  0.000      173.300
+OHX+COX=>HX+CO2X                1.000E+19  0.000      38.700
+HX+CO2X=>OHX+COX                1.000E+19  0.000      8.400
+X+CH3X=>HX+CH2X               1.262E+22  0.000      70.300
+HX+CH2X=>X+CH3X               3.090E+22  0.000      0.000
+X+CH2X=>HX+CHX                7.314E+22  0.000      58.900
+HX+CHX=>X+CH2X                3.090E+22  0.000      0.000
+X+CHX=>HX+CX                  3.090E+22  0.000      0.000
+HX+CX=>X+CHX                  1.248E+22  0.000      138.000
+OX+HX=>X+OHX                  1.280E+21  0.000      11.200
+X+OHX=>OX+HX                  7.390E+19  0.000      77.300
+X+H2OX=>OHX+HX                1.150E+19  0.000      101.400
+OHX+OHX=>OX+H2OX                7.400E+20  0.000      74.000
+OX+H2OX=>OHX+OHX                1.000E+20  0.000      43.100
+H2+CX=>CH2X                           4.000E-02  0.000      29.700
+    STICK
+CH2X=>CX+H2                           7.690E+13  0.000      25.100
+OHX+HX=>X+H2OX                2.040E+21  0.000      66.220
+HX+CH3X=>X+X+CH4          3.300E+21  0.000      50.000
+H2OX+CH3X=>X+OHX+CH4        3.700E+21  0.000      110.600
+OHX+CH3X=>X+OX+CH4          3.700E+21  0.000      87.900
+END

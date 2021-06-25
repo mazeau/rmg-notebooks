@@ -1,0 +1,69 @@
+REACTIONS  KJOULES/MOLE  MWOFF 
+H2 + (Ni) + (Ni) => H(Ni) + H(Ni)             3.000E-02  -0.000     5.000 
+    STICK 
+H(Ni) + H(Ni) => (Ni) + (Ni) + H2             2.544E+20  0.000      95.209 
+O2 + (Ni) + (Ni) => O(Ni) + O(Ni)             4.358E-02  -0.206     1.511 
+    STICK 
+O(Ni) + O(Ni) => (Ni) + (Ni) + O2             1.188E+21  0.823      468.907 
+CH4 + (Ni) => CH4(Ni)                         8.000E-03  0.000      -0.000 
+    STICK 
+CH4(Ni) => (Ni) + CH4                         8.705E+15  -0.000     37.550 
+H2O + (Ni) => H2O(Ni)                         9.999E-02  0.000      -0.000 
+    STICK 
+H2O(Ni) => (Ni) + H2O                         3.734E+12  -0.000     60.791 
+CO2 + (Ni) => CO2(Ni)                         7.001E-06  -0.000     0.000 
+    STICK 
+CO2(Ni) => (Ni) + CO2                         6.442E+07  0.000      25.979 
+CO + (Ni) => CO(Ni)                           4.999E-01  0.000      -0.000 
+    STICK 
+CO(Ni) => (Ni) + CO                           3.566E+11  -0.000     111.271 
+    COV / CO(Ni)                              0.000E+00  0.000      -50.000 / 
+O(Ni) + H(Ni) => OH(Ni) + (Ni)                3.951E+23  -0.188     104.346 
+OH(Ni) + (Ni) => O(Ni) + H(Ni)                2.254E+20  0.188      29.644 
+OH(Ni) + H(Ni) => H2O(Ni) + (Ni)              1.854E+20  0.086      41.517 
+H2O(Ni) + (Ni) => OH(Ni) + H(Ni)              3.674E+21  -0.086     92.943 
+OH(Ni) + OH(Ni) => O(Ni) + H2O(Ni)            2.346E+20  0.274      92.366 
+O(Ni) + H2O(Ni) => OH(Ni) + OH(Ni)            8.148E+24  -0.274     218.494 
+O(Ni) + C(Ni) => CO(Ni) + (Ni)                3.402E+23  -0.000     148.001 
+CO(Ni) + (Ni) => O(Ni) + C(Ni)                1.758E+13  0.000      116.239 
+    COV / CO(Ni)                              0.000E+00  0.000      -50.000 / 
+O(Ni) + CO(Ni) => CO2(Ni) + (Ni)              2.002E+19  -0.000     123.601 
+    COV / CO(Ni)                              0.000E+00  0.000      -50.000 / 
+CO2(Ni) + (Ni) => O(Ni) + CO(Ni)              4.648E+23  -1.000     89.319 
+HCO(Ni) + (Ni) => CO(Ni) + H(Ni)              3.710E+21  -0.000     0.003 
+    COV / CO(Ni)                              0.000E+00  0.000      50.000 / 
+CO(Ni) + H(Ni) => HCO(Ni) + (Ni)              4.009E+20  -1.000     132.227 
+HCO(Ni) + (Ni) => O(Ni) + CH(Ni)              3.796E+14  -0.000     81.911 
+O(Ni) + CH(Ni) => HCO(Ni) + (Ni)              4.599E+20  0.000      109.969 
+CH4(Ni) + (Ni) => CH3(Ni) + H(Ni)             1.548E+21  0.087      55.825 
+CH3(Ni) + H(Ni) => CH4(Ni) + (Ni)             1.443E+22  -0.087     63.455 
+CH3(Ni) + (Ni) => CH2(Ni) + H(Ni)             1.548E+24  0.087      98.125 
+CH2(Ni) + H(Ni) => CH3(Ni) + (Ni)             3.091E+23  -0.087     57.205 
+CH2(Ni) + (Ni) => CH(Ni) + H(Ni)              1.548E+24  0.087      95.225 
+CH(Ni) + H(Ni) => CH2(Ni) + (Ni)              9.774E+24  -0.087     81.055 
+CH(Ni) + (Ni) => C(Ni) + H(Ni)                9.888E+20  0.500      21.991 
+C(Ni) + H(Ni) => CH(Ni) + (Ni)                1.707E+24  -0.500     157.919 
+O(Ni) + CH4(Ni) => CH3(Ni) + OH(Ni)           5.621E+24  -0.101     87.872 
+CH3(Ni) + OH(Ni) => O(Ni) + CH4(Ni)           2.987E+22  0.101      25.798 
+O(Ni) + CH3(Ni) => CH2(Ni) + OH(Ni)           1.223E+25  -0.101     130.672 
+CH2(Ni) + OH(Ni) => O(Ni) + CH3(Ni)           1.393E+21  0.101      19.048 
+O(Ni) + CH2(Ni) => CH(Ni) + OH(Ni)            1.223E+25  -0.101     131.372 
+CH(Ni) + OH(Ni) => O(Ni) + CH2(Ni)            4.407E+22  0.101      42.498 
+O(Ni) + CH(Ni) => C(Ni) + OH(Ni)              2.471E+21  0.312      57.742 
+C(Ni) + OH(Ni) => O(Ni) + CH(Ni)              2.433E+21  -0.312     118.968 
+CO(Ni) + CO(Ni) => CO2(Ni) + C(Ni)            1.624E+14  0.500      241.761 
+    COV / CO(Ni)                              0.000E+00  0.000      -100.000 &
+    / 
+CO2(Ni) + C(Ni) => CO(Ni) + CO(Ni)            7.294E+28  -0.500     239.239 
+COOH(Ni) + (Ni) => CO2(Ni) + H(Ni)            3.737E+20  0.475      33.656 
+CO2(Ni) + H(Ni) => COOH(Ni) + (Ni)            6.250E+24  -0.475     117.344 
+COOH(Ni) + (Ni) => CO(Ni) + OH(Ni)            1.461E+24  -0.213     54.366 
+CO(Ni) + OH(Ni) => COOH(Ni) + (Ni)            6.003E+20  0.213      97.634 
+    COV / CO(Ni)                              0.000E+00  0.000      -50.000 / 
+C(Ni) + OH(Ni) => CO(Ni) + H(Ni)              3.888E+25  0.188      62.555 
+CO(Ni) + H(Ni) => C(Ni) + OH(Ni)              3.522E+18  -0.188     105.495 
+    COV / CO(Ni)                              0.000E+00  0.000      -50.000 / 
+COOH(Ni) + H(Ni) => HCO(Ni) + OH(Ni)          6.000E+22  -1.163     104.878 
+HCO(Ni) + OH(Ni) => COOH(Ni) + H(Ni)          2.282E+20  0.263      15.922 
+END 
+
